@@ -1,6 +1,6 @@
 export default (() => {
   const sortindex = (todoList) => todoList.map((item, index) => {
-    item.index = index + 1;
+    item.index = index;
     return item;
   });
   // ****Store Tasks in Local Storage //
