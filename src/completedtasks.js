@@ -1,8 +1,8 @@
 const storetask = (todoList) => {
-  localStorage.setItem("todo-list-group", JSON.stringify(todoList));
+  localStorage.setItem('todo-list-group', JSON.stringify(todoList));
 };
 
-const gettasks = () => JSON.parse(localStorage.getItem("todo-list-group"));
+const gettasks = () => JSON.parse(localStorage.getItem('todo-list-group'));
 // Make checkbox true for completed taskss
 export default (e) => {
   const list = gettasks();
