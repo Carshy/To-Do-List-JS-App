@@ -5,10 +5,10 @@ export default (() => {
   });
   // Store Tasks in Local Storage //
   const storetask = (todoList) => {
-    localStorage.setItem("todo-list-group", JSON.stringify(todoList));
+    localStorage.setItem('todo-list-group', JSON.stringify(todoList));
   };
 
-  const gettasks = () => JSON.parse(localStorage.getItem("todo-list-group"));
+  const gettasks = () => JSON.parse(localStorage.getItem('todo-list-group'));
   // Tasks in the list
   const add = (event) => {
     const list = gettasks();
@@ -18,20 +18,20 @@ export default (() => {
   // Update Tasks
   const updateTask = (event) => {
     setTimeout(() => {
-      event.target.style.backgroundColor = "#fff";
-      event.target.parentElement.style.backgroundColor = "#fff";
-      event.target.nextSibling.nextSibling.classList.add("hideellipsis");
-      event.target.nextSibling.classList.remove("hideellipsis");
+      event.target.style.backgroundColor = '#fff';
+      event.target.parentElement.style.backgroundColor = '#fff';
+      event.target.nextSibling.nextSibling.classList.add('hideellipsis');
+      event.target.nextSibling.classList.remove('hideellipsis');
     }, 200);
     const list = gettasks();
-    const index = event.target.getAttribute("data-index");
+    const index = event.target.getAttribute('data-index');
     list[index].description = event.target.value;
     storetask(list);
   };
   // Remove Tasks
   const remove = (event) => {
     const list = gettasks();
-    const index = event.target.getAttribute("data-index");
+    const index = event.target.getAttribute('data-index');
     list.splice(index, 1);
     storetask(sortindex(list));
   };
