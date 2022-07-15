@@ -3,20 +3,20 @@ body {
 }
 
 #todo-list-group {
-  list-style: none;
-  background-color: white;
-  width: 500px;
   margin: auto;
+  background-color: white;
+  width: 600px;
+  list-style: none;
   padding: 0;
-  margin-top: 100px;
-  box-shadow: rgba(100, 100, 120, 0.2) 0 5px 25px 0;
+  margin-top: 8%;
+  box-shadow: rgba(100, 100, 120, 0.2) 0 6px 26px 0;
 }
 
 #todo-list-group li {
   border-bottom: 1px solid rgba(100, 100, 120, 0.1);
   display: flex;
-  padding: 10px 15px 10px 10px;
-  color: rgb(92, 89, 89);
+  padding: 11px 16px 11px 11px;
+  color: #5c5959;
 }
 
 #todo-list-group li i {
@@ -24,7 +24,7 @@ body {
 }
 
 .todo-list-item1 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -67,6 +67,13 @@ input[type=checkbox] {
 
 .btn:hover {
   background-color: rgb(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.btn a:hover {
+  color: #fff;
+  opacity: 0.9;
+  font-size: 24px;
 }
 
 .hideellipsis {

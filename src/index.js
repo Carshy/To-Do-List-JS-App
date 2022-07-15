@@ -1,7 +1,7 @@
 import './style.css';
 import localstore from './localstorage.js';
 import completed from './completedtasks.js';
-import displayhtml from './displayhtml.js';
+import displayhtml from './htmldisplay.js';
 
 const todoList = [];
 
@@ -9,20 +9,20 @@ const renderUI = () => {
   if (!JSON.parse(localStorage.getItem('todo-list-group'))) {
     localstore.storetask(localstore.sortindex(todoList));
   }
-  // Display List of tasks in UI
+  // ***Displaying the List of tasks in UI*****
   displayhtml.displayList();
-  // Event for Checkboxes
+  // ***Event for Checkboxes***
   const checkboxes = document.querySelectorAll('.checkbox');
 
   [...checkboxes].forEach((button) => {
     button.addEventListener('change', completed);
   });
-  // Event for Update Task
+  // ***Event for Update Task****
   const inputs = document.querySelectorAll('.description');
   [...inputs].forEach((input) => {
     input.addEventListener('focusout', localstore.updateTask);
   });
-  // Hide Ellipsis icon and display trash icon
+  // *****Hiding Ellipsis icons and displaying the trash icons****
   [...inputs].forEach((input) => {
     input.addEventListener('focus', (event) => {
       event.target.style.backgroundColor = '#fff4bf';
@@ -31,7 +31,7 @@ const renderUI = () => {
       event.target.nextSibling.nextSibling.classList.remove('hideellipsis');
     });
   });
-  // Trash task from list
+  // ****Trash task from list****
   const trashes = document.querySelectorAll('.fa-trash');
   [...trashes].forEach((trash) => {
     trash.addEventListener('click', (event) => {
@@ -42,7 +42,7 @@ const renderUI = () => {
     });
   });
 };
-// Add Item in the list when user press enter after input
+// ****Add Item in the list when user press enter after input
 const input = document.querySelector('#additem');
 input.addEventListener('keyup', (event) => {
   if (event.keyCode === 13) { // Returns Enter Key
@@ -53,7 +53,7 @@ input.addEventListener('keyup', (event) => {
     renderUI();
   }
 });
-// Remove Completed Tasks
+// ****Removing Completed Tasks
 const btn = document.querySelector('.btn');
 btn.addEventListener('click', (e) => {
   e.preventDefault();

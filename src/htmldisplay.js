@@ -28,7 +28,7 @@ export default (() => {
     const list = document.querySelector('#todo-list-group');
     list.insertBefore(newItem, btn);
   };
-  // Display List
+  // *****Display List
   const displayList = () => {
     const LocalStoragelist = localstore.gettasks();
     LocalStoragelist.forEach((item) => {
