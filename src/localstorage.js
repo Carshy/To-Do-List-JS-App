@@ -1,6 +1,5 @@
 export default (() => {
-  const sortindex = (todoList) =>
-    todoList.map((item, index) => {
+  const sortindex = (todoList) => todoList.map((item, index) => {
       item.index = index;
       return item;
     });
