@@ -6,8 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
-    "build": "webpack",
-    "webhint": "hint http://localhost:8080"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -30,10 +29,10 @@
   "main": "webpack.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Carshy/To-Do-List-JS-App.git"
+    "url": "git+https://github.com/saqibjavaiddev/To-Do-list-JS-Project.git"
   },
   "bugs": {
-    "url": "https://github.com/Carshy/To-Do-List-JS-App/issues"
+    "url": "https://github.com/saqibjavaiddev/To-Do-list-JS-Project/issues"
   },
-  "homepage": "https://github.com/Carshy/To-Do-List-JS-App"
+  "homepage": "https://github.com/saqibjavaiddev/To-Do-list-JS-Project"
 }
