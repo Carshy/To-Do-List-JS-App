@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "build": "webpack"
-    
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "hint": "^7.0.1",
     "html-webpack-plugin": "^5.5.0",
     "lodash": "^4.17.21"
@@ -29,10 +29,10 @@
   "main": "webpack.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saqibjavaiddev/To-Do-list-JS-Project.git"
+    "url": "git+https://github.com/Carshy/To-Do-List-JS-App.git"
   },
   "bugs": {
-    "url": "https://github.com/saqibjavaiddev/To-Do-list-JS-Project/issues"
+    "url": "https://github.com/Carshy/To-Do-List-JS-App/issues"
   },
-  "homepage": "https://github.com/saqibjavaiddev/To-Do-list-JS-Project"
+  "homepage": "https://github.com/Carshy/To-Do-List-JS-App"
 }
