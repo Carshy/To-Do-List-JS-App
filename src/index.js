@@ -1,5 +1,6 @@
 import './style.css';
 import localstore from './localstorage.js';
+import completed from './completedtasks.js';
 import displayhtml from './htmldisplay.js';
 
 const todoList = [];

@@ -35,6 +35,13 @@ export default (() => {
     list.splice(index, 1);
     storetask(sortindex(list));
   };
+
+  // *****Clear Completed tasks
+  const clearCompleted = () => {
+    const list = gettasks();
+    const newList = list.filter((e) => e.completed === false);
+    storetask(sortindex(newList));
+  };
   
   // ****Return functions
   return {
@@ -44,5 +51,6 @@ export default (() => {
     add,
     updateTask,
     remove,
+    clearCompleted
   };
 })();
