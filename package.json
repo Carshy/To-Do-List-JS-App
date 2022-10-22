@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d src",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "build": "webpack"
