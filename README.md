@@ -18,7 +18,7 @@ The present project is part of the Microverse curriculum Module 2 Block 3 Projec
 
 ## Live Demo 
 
-[Live Demo Link](https://carshy.github.io/To-Do-List-JS-App/)
+[Live Demo Link](https://boisterous-kleicha-602117.netlify.app/)
 
 ## Getting Started
 To get a local copy of this exercice, Please follow these simple example steps.
