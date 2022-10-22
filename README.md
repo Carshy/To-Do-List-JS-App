@@ -13,7 +13,7 @@
 
 ## Live Demo 
 
-[Live Demo Link]()
+[Live Demo Link](https://carshy.github.io/To-Do-List-JS-App/)
 
 ## Getting Started
 To get a local copy of this exercice, Please follow these simple example steps.
