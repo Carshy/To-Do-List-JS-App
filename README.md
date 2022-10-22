@@ -1,7 +1,12 @@
 
 # TO Do List JS App
 
-> "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
+"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
+
+The present project is part of the Microverse curriculum Module 2 Block 3 Project. The main objective is putting hands on practice to build a web application using JavaSCript, DOM, Webpack, and HTML/CSS.
+
+#### Home page
+![screenshot](src/images/snapshot.PNG)
 
 
 ## Built With
@@ -18,15 +23,10 @@
 ## Getting Started
 To get a local copy of this exercice, Please follow these simple example steps.
 
-1. Clone this repository or download the Zip folder:
-
-**``git@github.com:Carshy/To-Do-list-JS-App.git``**
-
-2. Navigate to folder location in your local machine:
-
-**``you@your-Pc-name:~$ cd <folder>``**
-
-3. Press Enter to navigate to your local clone.
+1. Clone https://github.com/Carshy/To-Do-list-JS-App.git to your local machine.
+2. Run npm install to install dependancies.
+3. cd into the Restaurant-Page directory and navigate into the dist directory.
+4. npm start to open a live page
 
 That's it! You can play with it as you wish :smile:
 
@@ -49,10 +49,11 @@ Contributions, issues, and feature requests are welcome!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used 🔰
-- Inspiration 💘
-- Microverse program ⚡
-- My standup team 🏹
+## Acknowledgments
+
+- Thanks to the Microverse team for the great curriculum 🙌.
+- Thanks to Code Reviewers for the insightful feedback ⚡.
+- Hat Tip to My coding partners, morning session team, and standup team for support and encouragement 🏹
 - My family's support 🙌
 
 ## 📝 License
