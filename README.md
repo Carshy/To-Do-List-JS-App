@@ -25,7 +25,7 @@ To get a local copy of this exercice, Please follow these simple example steps.
 
 1. Clone https://github.com/Carshy/To-Do-list-JS-App.git to your local machine.
 2. Run npm install to install dependancies.
-3. cd into the Restaurant-Page directory and navigate into the dist directory.
+3. cd into the To-Do-List-JS-App directory 
 4. npm start to open a live page
 
 That's it! You can play with it as you wish :smile:
@@ -36,7 +36,7 @@ That's it! You can play with it as you wish :smile:
 
 - GitHub: [@Collins Musoko](https://github.com/Carshy)
 - Twitter: [@CarshyCollins](https://twitter.com/CarshyCollins)
-- Linkedin: [Collins Musoko](https://www.linkedin.com/in/collins-musoko-864881120/)
+- Linkedin: [Collins Musoko](https://www.linkedin.com/in/collins-musoko/)
 
 ## Show your support
 
